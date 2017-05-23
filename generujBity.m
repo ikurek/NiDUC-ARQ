@@ -1,5 +1,4 @@
-%Funkcja generuje ciąg zer i jedynek
-%param n - Długość ciągu
-function Y = generujBity(n)
-  Y = round(rand(1, n));
-end
+%Funkcja generuje ci�g zer i jedynek
+%param n - D�ugo�� ci�gu
+function Y = generujBity(iloscpakietow,wielkoscpakietu)
+  Y =round(rand(iloscpakietow,wielkoscpakietu));
